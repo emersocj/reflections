@@ -10,3 +10,8 @@ Descripe the differences between forks, clones, and branches. When would you use
 A for is a clone of another file that changes to will not afftect the original. Clones are exact copies of files. Branches are different directions that a pull can be taken from when a code is going in a different direction than the master
 
 How would you collaborate without using Git or GitHub? Email, Github is way easier and quicker.
+
+When would you want to make changes in a separate branch rather than the master branch? What benefits does this approach have?
+
+Changes to the master branch, when working with others, should only been down with a pull request. Otherwise, changes to the master would be uncontrolled and cause confunsion. Before merging a branch the user should also have the most recent version available and merge with it locally before pushing.
+
